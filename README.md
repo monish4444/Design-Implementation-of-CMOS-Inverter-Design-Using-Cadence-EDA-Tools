@@ -20,7 +20,11 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
      Open the Cadence Virtuoso tool and set up the working library.
      Create a new schematic cell view for the CMOS Inverter design.
 ### 2. Schematic Design:
-    <img width="1920" height="1077" alt="Screenshot 2026-07-24 161635" src="https://github.com/user-attachments/assets/c0aca7d5-f7d3-4d8e-afc6-8a4b5e8b0636" />
+    Select the NMOS and PMOS transistors from the library.
+    Connect the NMOS transistor with its source terminal to GND and its drain terminal to the output node.
+    Connect the PMOS transistor with its source terminal to VDD and its drain terminal to the same output node as NMOS.
+    Join the gate terminals of both transistors to form the input node.
+    Connect input voltage sources Vdc and Vpulse
 
 ### 3. Simulation:
     Check the Design for Errors and proceed for Simulation
@@ -38,12 +42,14 @@ The aim is to create and simulate a CMOS inverter circuit with Cadence EDA tools
 
 #### 2. Schematic of CMOS Inverter:
 
-   <img width="1600" height="896" alt="WhatsApp Image 2026-07-23 at 11 45 37" src="https://github.com/user-attachments/assets/08aee496-b2a3-454c-b01e-bc75975097f9" />
+  <img width="1920" height="1077" alt="Screenshot 2026-07-24 161635" src="https://github.com/user-attachments/assets/aafa649e-ff41-44d3-8a25-b32049a3d035" />
+
 
 #### 3. Transient Response Setup:
 
 
-<img width="1020" height="759" alt="WhatsApp Image 2026-07-23 at 11 46 33" src="https://github.com/user-attachments/assets/ecc51694-875f-4007-b088-5837c4768073" />
+<img width="1920" height="1080" alt="Screenshot 2026-07-24 161734" src="https://github.com/user-attachments/assets/bdd5efb7-18a4-4645-b46c-0f18c4ebacca" />
+
 
 
 ## Output
